@@ -1,8 +1,40 @@
+
+
+@font-face {
+  font-family: 'light';
+  src: url(../fonts/light.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: 100vh
 }
-.name {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 50;
+.leftTxt {
+  font-family: 'light';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rowButtons {
+  display: flex;
+  padding-top: 1%;
+  
+  justify-content: first baseline;
+}
+.rowButtons p{
+ padding-left: 2%;
+}
+
+
+.buttons {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
