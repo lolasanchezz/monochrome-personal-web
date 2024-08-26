@@ -2,8 +2,8 @@
 
 import {Name} from "./components/Name"
 import styles from "./page.module.css";
-import {useState} from 'react';
-
+import {useState, useEffect} from 'react';
+import MiddleInfo from "./components/Middle";
 
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Name setInfo = {setInfo}></Name>
+      <MiddleInfo></MiddleInfo>
     </main>
   );
 }
