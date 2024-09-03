@@ -13,8 +13,10 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Name setInfo = {setInfo}></Name>
-      <MiddleInfo></MiddleInfo>
+      <div className = {styles.left}>
+      <Name styles = {styles.name} setInfo = {setInfo}></Name>
+      </div>
+      <MiddleInfo infoClicked = {info}></MiddleInfo>
     </main>
   );
 }

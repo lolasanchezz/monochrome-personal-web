@@ -1,17 +1,18 @@
-
-
-@font-face {
+ @font-face {
   font-family: 'light';
   src: url(../fonts/light.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
+
+
+
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   align-self: center;
   height: 100vh
 }
@@ -19,7 +20,9 @@
   font-family: 'light';
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  
+  
 }
 .rowButtons {
   display: flex;
@@ -38,4 +41,39 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.header {
+  font-size: medium;
+  
+}
+
+.text {
+  padding: 5%;
+  width: 40%;
+  font-family: 'light';
+  color: gray;
+}
+
+.projCont{
+  padding: 5%;
+  width: 40%;
+  font-family: 'light';
+  font-size: medium;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.linkCont {
+  padding: 5%;
+  width: 40%;
+  font-family: 'light';
+  color: white;
+ display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  background-color: rgba(255, 255, 255, 0.148);
+  padding: 1%;
+  margin-left: 5%;
 }
