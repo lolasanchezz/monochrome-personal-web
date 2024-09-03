@@ -10,7 +10,7 @@ return (
     <div className = {styles.leftTxt}>
     <div className = {styles.name}>
     <p>{"{ "}name:</p>
-    <h1>"lola sanchez"</h1>
+    <h1>`&quot;`lola sanchez`&quot;`</h1>
     <p>{"}"};</p>
     </div>
     <div className = {styles.buttons}>
